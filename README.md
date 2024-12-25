@@ -1,1 +1,11 @@
 Chatbot-LLM
+- Setup môi trường
+  - Python 3.8 (hoặc mới hơn)
+  - Cài đặt các packages: streamlit, openai
+- Lấy API key từ Groq và XAI
+  - Groq: https://console.groq.com/keys
+  - XAI: https://console.x.ai/
+  - Lưu API key vào file `secrets.toml`
+- Chạy ứng dụng
+    - `streamlit run bot.py --server.port 8501`
+    - `streamlit run grokBot.py --server.port 8502`
